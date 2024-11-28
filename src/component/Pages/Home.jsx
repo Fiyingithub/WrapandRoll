@@ -15,11 +15,11 @@ const Home = () => {
     })
   }, [])
   return (
-    <div className='lg:my-[38px] px-6 lg:mx-20 lg:px-20 lg:py-2 h-[auto]'>
-      <div className='mt-20 flex flex-wrap justify-center gap-20'>
+    <div className='lg:my-[38px] px-6 lg:mx-10 lg:px-20 lg:py-2 h-[auto]'>
+      <div className='mt-20 flex flex-col lg:flex-row justify-center gap-20'>
         <div className='mt-20'>
           <p className='text-yellow-300 text-lg'>_Restaurant</p>
-          <h1 className='text-5xl font-[800] mt-6 text-white'>
+          <h1 className='text-3xl font-[800] mt-6 text-white'>
             We Serve <br /> Delicious Wrap&Roll <br /> Meal
           </h1>
           <p className='text-gray-300 mt-4'>Keep it easy with these simple and delicious recipes <br /> from make-ahead lunches and midweek meals to fuss-free sides 
